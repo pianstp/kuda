@@ -1,0 +1,155 @@
+.kuda-page--transition .kuda-preview {
+    min-height: calc(100vh - 120px);
+    transform: translateY(0)!important;
+}
+
+.kuda-preview {
+    margin-top: 70px;
+    padding: 70px 40px 63px;
+    transition: transform .8s;
+}
+
+.container{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.home-fold, .overflow-hidden {
+    overflow: hidden;
+    display: flex;
+    min-height: 635px;
+}
+
+.fade-active>*, .kuda-preview>div:not(:first-child)>*, .kuda-preview>div:not(:nth-child(2))>* {
+    transition-delay: 0ms!important;
+}
+.kuda-entry--inner:not(.kuda-cta--section) {
+    min-height: 540px;
+    overflow: hidden;
+}
+// @media only screen and (min-width: 768px)
+// .home-fold>div {
+//     width: 100%;
+// }
+.kuda-preview>div>* {
+    opacity: 0;
+    transform: translate3d(0,35px,0);
+    -webkit-transform: translate3d(0,35px,0);
+    -moz-transform: translate3d(0,35px,0);
+    -ms-transform: translate3d(0,35px,0);
+    -o-transform: translate3d(0,35px,0);
+    transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -webkit-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -moz-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -ms-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+    -o-transition: opacity .7s cubic-bezier(.47,0,.745,.715),transform 1.3s;
+}
+
+.fade-active>* {
+    opacity: 1!important;
+    transform: translateZ(0)!important;
+    -webkit-transform: translateZ(0)!important;
+    -moz-transform: translateZ(0)!important;
+    -ms-transform: translateZ(0)!important;
+    -o-transform: translateZ(0)!important;
+}
+.align-center {
+    align-items: center!important;
+}
+.justify-between {
+    justify-content: space-between!important;
+}
+.flex {
+    display: flex!important;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+.kuda-section--42 {
+    width: 42%;
+}
+
+.kuda-main--wrap {
+    max-width: 450px;
+}
+
+.title-bottom--spacing {
+    margin-bottom: 20px;
+}
+.text-xlbold {
+    font-weight: 900;
+}
+.color-primary {
+    color: #40196d;
+}
+.text-xl {
+    font-size: 3rem!important;
+    line-height: 1.15;
+}
+
+.card-main--heading {
+    font-size: 1.25rem;
+    margin-bottom: 31px;
+}
+.text-semi-bold {
+    font-weight: 600;
+}
+.color-black {
+    color: #000;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.title-bottom--spacing {
+    margin-bottom: 20px;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+.align-center {
+    align-items: center!important;
+}
+.flex {
+    display: flex!important;
+}
+
+
+.single-badge:not(:last-child) {
+    margin-right: 11px;
+}
+.single-badge {
+    display: inline-flex;
+    transition: transform .6s;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.single-license:not(:last-child) {
+    margin-right: 16px;
+}
+
+.kuda-section--58 {
+    width: 58%;
+}
+
+.hasAnimation {
+    margin-top: -12px;
+    position: relative;
+}
+
+
+
