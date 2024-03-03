@@ -259,6 +259,145 @@ a {
   top: 3px;
   width: 23px; }
 
+.kuda-footer {
+  padding-top: 5% !important; }
+
+.animated {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  position: relative; }
+
+.fadeInUp {
+  animation-name: fadeInUp; }
+
+.pb-4, .py-4 {
+  padding-bottom: 1.5rem !important; }
+
+.pt-4, .py-4 {
+  padding-top: 1.5rem !important; }
+
+.mb-5, .my-5 {
+  margin-bottom: 3rem !important; }
+
+footer {
+  border-top: 1px solid rgba(223, 227, 255, 0.5);
+  margin-top: 80px; }
+
+footer .container {
+  max-width: 1180px;
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%; }
+
+.kuda-footer--nav {
+  display: flex; }
+
+.kuda-footer--col:not(:last-child) {
+  margin-right: 30px; }
+
+.kuda-footer--col {
+  width: 20%; }
+
+.kuda-footer--menu li:not(:last-child) {
+  margin-bottom: 20px; }
+
+.kuda-footer--menu li {
+  font-size: .875rem;
+  line-height: 1.3; }
+
+.text-bold {
+  font-weight: 700 !important; }
+
+.color-primary {
+  color: var(--primaryColor); }
+
+p {
+  font-size: 1rem;
+  line-height: 1.5; }
+
+.kuda-footer--menu {
+  margin-top: 20px; }
+
+.color-black {
+  color: #000; }
+
+ol, ul {
+  list-style: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.pb-2, .py-2 {
+  padding-bottom: 0.5rem !important; }
+
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem !important; }
+
+.coming-soon--downloads {
+  gap: 10px;
+  margin-top: 4.5rem; }
+
+.flex {
+  display: flex !important; }
+
+.footer-product--vary {
+  color: #979797;
+  font-size: .9rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center; }
+
+.footer-contact--information {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.3rem 0; }
+
+.information-col:not(:last-child) {
+  margin-right: 30px; }
+
+.information-col {
+  width: 33.33%; }
+
+.other-info {
+  margin-top: 15px; }
+
+.flex-column {
+  flex-direction: column !important; }
+
+.flex {
+  display: flex !important; }
+
+.link-decoration {
+  text-decoration: underline; }
+
+.text-bold {
+  font-weight: 700 !important; }
+
+.color-primary {
+  color: var(--primaryColor); }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.kuda-socials {
+  margin-top: 23px; }
+
+.kuda-socials li {
+  align-items: center;
+  display: flex; }
+
+.kuda-socials li a {
+  height: 100%;
+  margin-right: 15px; }
+
 .kuda-page--transition .kuda-preview {
   min-height: calc(100vh - 120px);
   transform: translateY(0) !important; }
