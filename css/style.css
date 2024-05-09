@@ -260,7 +260,9 @@ a {
   width: 23px; }
 
 .kuda-footer {
-  padding-top: 5% !important; }
+  border-top: 1px solid rgba(223, 227, 255, 0.5);
+  padding-top: 5% !important;
+  height: 70rem; }
 
 .animated {
   animation-duration: .8s;
@@ -279,14 +281,11 @@ a {
 .mb-5, .my-5 {
   margin-bottom: 3rem !important; }
 
-footer {
-  border-top: 1px solid rgba(223, 227, 255, 0.5);
-  margin-top: 80px; }
-
 footer .container {
   max-width: 1180px;
   padding-left: 60px;
-  padding-right: 60px; }
+  padding-right: 60px;
+  padding-top: 5rem; }
 
 .container {
   margin-left: auto;
@@ -913,7 +912,7 @@ p {
   box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
   padding: 12px 12px 12px 12px;
   margin-left: 13rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 7rem; }
 
 .descrip-box {
   display: flex;
@@ -958,9 +957,3 @@ p {
   height: 350px;
   min-width: 435px;
   right: 40px; }
-
-.border-top {
-  width: 100%;
-  margin-top: 2rem;
-  border: 1px solid #40196d;
-  padding-top: 2rem; }

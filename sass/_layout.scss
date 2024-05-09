@@ -1,6 +1,9 @@
 .kuda-footer {
+    border-top: 1px solid rgba(223, 227, 255, .5);
     padding-top: 5%!important;
+    height: 70rem;
 }
+
 .animated {
     animation-duration: .8s;
     animation-fill-mode: both;
@@ -18,15 +21,13 @@
 .mb-5, .my-5 {
     margin-bottom: 3rem!important;
 }
-footer {
-    border-top: 1px solid rgba(223,227,255,.5);
-    margin-top: 80px;
-}
+
 
 footer .container {
-    max-width: 1180px;
+     max-width: 1180px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 5rem;
 }
 
 .container {
