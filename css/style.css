@@ -86,10 +86,6 @@ li.kuda-nav--menu {
 .kuda-nav--menu {
   margin-right: 60px; }
 
-[data-toggle=dropdown] > .no-link, [data-toggle=dropdown] > a {
-  cursor: pointer;
-  height: 40px; }
-
 .kuda-nav--menu a, .kuda-nav--menu p {
   align-items: center;
   color: #40196d;
@@ -102,6 +98,70 @@ li.kuda-nav--menu {
 
 p {
   line-height: 1.5; }
+
+/* The container <div> - needed to position the dropdown content */
+.falldown {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  color: #40196d;
+  margin-right: 60px;
+  display: flex;
+  font-size: .875rem;
+  font-weight: 700;
+  min-width: 80px; }
+
+/* Dropdown Content (Hidden by Default) */
+.falldown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0;
+  top: 28px; }
+
+.kuda-falldown--menu {
+  background: #fff;
+  border: 1px solid rgba(220, 220, 224, 0.5);
+  border-radius: 5px;
+  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+  padding: 20px 0;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.kuda-falldown--menu li .menu-link {
+  align-items: center;
+  border-radius: 5px;
+  color: #000;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 10px 0; }
+
+.kuda-falldown--menu li .menu-link:hover {
+  white-space: nowrap;
+  color: #40196d;
+  font-family: sans-serif;
+  font-weight: 500; }
+
+.fall__down {
+  color: #40196d; }
+
+/*Change color of dropdown links on hover */
+.falldown:hover .falldown-content {
+  display: block; }
+
+/* Show the dropdown menu on hover */
+.falldown:hover .falldown-content + header {
+  background-color: #40196d;
+  opacity: 0.6; }
 
 .dropDown {
   margin-left: 7px; }
