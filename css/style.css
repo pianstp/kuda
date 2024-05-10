@@ -170,11 +170,16 @@ p {
   left: 0;
   top: 28px; }
 
+.menu-link--icon svg {
+  height: 25px;
+  width: 25px; }
+
 .text-xs {
   font-size: .69rem; }
 
 .pl-4, .px-4 {
-  padding-left: 1.5rem !important; }
+  padding-left: 1.5rem !important;
+  color: #979797; }
 
 /*Change color of dropdown links on hover */
 .salldown:hover .salldown-content {

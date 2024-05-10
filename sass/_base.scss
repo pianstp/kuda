@@ -220,6 +220,7 @@ p {
 
 .sall__down{
   color: #40196d;
+  
 }
 
 .salldown-content{
@@ -235,11 +236,18 @@ p {
 
 }
 
+.menu-link--icon svg {
+  height: 25px;
+  width: 25px;
+}
+
 .text-xs {
   font-size: .69rem;
+  
 }
 .pl-4, .px-4 {
   padding-left: 1.5rem !important;
+  color: #979797;
 }
 
 /*Change color of dropdown links on hover */
