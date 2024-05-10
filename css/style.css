@@ -99,6 +99,87 @@ li.kuda-nav--menu {
 p {
   line-height: 1.5; }
 
+.drop-min--width {
+  min-width: 230px; }
+
+.menu-link--icon {
+  display: flex;
+  margin-right: 15px; }
+
+.kuda-dropdown--menu li {
+  margin: 0 !important;
+  padding: 0 26px; }
+
+.kuda-dropdown--menu li .menu-link {
+  align-items: center;
+  border-radius: 5px;
+  color: #000;
+  display: inline-flex;
+  font-size: .875rem !important;
+  font-weight: 500;
+  padding: 10px 0; }
+
+.kuda-dropdown--menu {
+  background: #fff;
+  border: 1px solid rgba(220, 220, 224, 0.5);
+  border-radius: 5px;
+  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
+  padding: 20px 0;
+  white-space: nowrap; }
+
+.menu-link:hover .nav-link-text {
+  color: #40196d !important;
+  font-weight: 600;
+  transition: all .5s; }
+
+.menu-link:hover .menu-link--icon {
+  transform: scale(1.2);
+  transition: all .5s; }
+
+.bg-offwhite, .kuda-cta-white {
+  background-color: rgba(220, 220, 224, 0.3); }
+
+.nav-link-text {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.salldown {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  color: #40196d;
+  margin-right: 60px;
+  display: flex;
+  font-size: .875rem;
+  font-weight: 700;
+  min-width: 80px; }
+
+.sall__down {
+  color: #40196d; }
+
+.salldown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0;
+  top: 28px; }
+
+.text-xs {
+  font-size: .69rem; }
+
+.pl-4, .px-4 {
+  padding-left: 1.5rem !important; }
+
+/*Change color of dropdown links on hover */
+.salldown:hover .salldown-content {
+  display: block; }
+
 /* The container <div> - needed to position the dropdown content */
 .falldown {
   position: relative;
